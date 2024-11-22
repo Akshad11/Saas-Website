@@ -1,0 +1,34 @@
+.Home-div {
+  background-color: rgba(4, 56, 115, 1);
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+.H_top-div {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home_text-div {
+  width: 50%;
+  text-align: start;
+}
+
+.Home_text-div h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.Home_text-div p {
+  font-size: 20px;
+  padding: 50px 0px 50px 0px;
+}
+.Home_img-div {
+  width: 50%;
+}
+
+.Home_img-div img {
+  width: 650px;
+  height: 450px;
+}

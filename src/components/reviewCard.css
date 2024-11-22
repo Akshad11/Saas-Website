@@ -1,0 +1,44 @@
+.ReviewCard-div {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    text-align: start;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.RC_vec1 {
+    width: 30px;
+    height: 50px;
+}
+
+.RC_Hface-div {
+    padding-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 1px solid black;
+}
+
+.ReviewC_p-div p {
+    font-size: 15px;
+}
+
+.RC_Hface-div img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+
+.RC_h2-div h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}

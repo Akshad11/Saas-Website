@@ -1,0 +1,91 @@
+.footer-div {
+  background-color: rgba(4, 56, 115, 1);
+  color: white;
+}
+
+.f_componyText-div {
+  padding: 60px 30px 30px 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  text-align: start;
+}
+
+.f_logo-div {
+  flex: 3;
+  padding-left: 30px;
+}
+
+.f_logo-div h4 {
+  padding: 30px 0px 30px 0px;
+  width: 250px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.f_address-div {
+  flex: 1;
+}
+
+.f_address-div p {
+  padding-bottom: 30px;
+}
+
+.f_compony-div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_compony-div div {
+  width: 100px;
+}
+
+.f_icons {
+  padding-right: 20px;
+}
+
+.f_Input-div h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.Input-div {
+  padding-bottom: 20px;
+}
+
+.Input-div input {
+  width: 410px;
+  border: none;
+  height: 40px;
+  padding: 0px 20px 0px 20px;
+  font-size: 17px;
+}
+
+.Input-div input::placeholder {
+  color: rgb(13, 164, 228);
+}
+
+.Input-div button {
+  width: 90px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  background-color: rgb(13, 164, 228);
+}
+
+.F_end-div {
+  display: flex;
+}
+
+.F_end-div h2 {
+  color: rgb(13, 164, 228);
+  padding: 20px 60px 20px 20px;
+}
+
+.F_end-div h3 {
+  padding: 20px;
+}
