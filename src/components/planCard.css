@@ -1,7 +1,4 @@
 .Plan-div {
-  width: 330px;
-  height: 500px;
-  padding: 30px;
   border: 2px solid rgba(255, 228, 146, 1);
   border-radius: 15px;
   display: flex;
@@ -10,37 +7,157 @@
   flex-direction: column;
 }
 
-.Plan-div h2 {
-  font-size: 30px;
-}
-
-.Plan-div h4 {
-  font-size: 20px;
-}
 
 .Plan-div h5 {
-  font-size: 17px;
   font-weight: lighter;
 }
 
 .Plan-div p {
-  font-size: 17px;
   font-weight: lighter;
   text-align: start;
 }
 
 .planbtn {
-  font-size: 17px;
   font-weight: lighter;
-  width: 150px;
-  height: 40px;
   border: 2px solid rgba(255, 228, 146, 1);
   border-radius: 5px;
 }
+
 .PlanIcon {
   padding: 0px 10px 0px 0px;
 }
 
 .P_IconP-div {
   display: flex;
+}
+
+@media only screen and (max-width: 690px) {
+  .Plan-div {
+    width: 300px;
+    height: 500px;
+    padding: 20px;
+  }
+
+  .Plan-div h2 {
+    font-size: 30px;
+  }
+
+  .Plan-div h4 {
+    font-size: 20px;
+  }
+
+  .Plan-div h5 {
+    font-size: 17px;
+  }
+
+  .Plan-div p {
+    font-size: 17px;
+  }
+
+  .planbtn {
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+
+  }
+
+}
+
+@media only screen and (min-width: 690px) {
+  .Plan-div {
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+  }
+
+  .Plan-div h2 {
+    font-size: 30px;
+  }
+
+  .Plan-div h4 {
+    font-size: 20px;
+  }
+
+  .Plan-div h5 {
+    font-size: 17px;
+  }
+
+  .Plan-div p {
+    font-size: 17px;
+    white-space: normal;
+  }
+
+  .planbtn {
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Plan-div {
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+  }
+
+  .Plan-div h2 {
+    font-size: 30px;
+  }
+
+  .Plan-div h4 {
+    font-size: 20px;
+  }
+
+  .Plan-div h5 {
+    font-size: 17px;
+  }
+
+  .Plan-div p {
+    font-size: 17px;
+    white-space: normal;
+  }
+
+  .planbtn {
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Plan-div {
+    width: 330px;
+    height: 500px;
+    padding: 30px;
+
+  }
+
+  .Plan-div h2 {
+    font-size: 30px;
+  }
+
+  .Plan-div h4 {
+    font-size: 20px;
+  }
+
+  .Plan-div h5 {
+    font-size: 17px;
+  }
+
+  .Plan-div p {
+    font-size: 17px;
+    white-space: normal;
+  }
+
+  .planbtn {
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+
+  }
+
+
 }

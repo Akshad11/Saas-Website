@@ -27,6 +27,7 @@
 
 .ReviewC_p-div p {
     font-size: 15px;
+    white-space: normal;
 }
 
 .RC_Hface-div img {
@@ -41,4 +42,9 @@
 .RC_h2-div h2 {
     font-size: 20px;
     margin-bottom: 10px;
+
+}
+
+.RC_h2-div p {
+    white-space: normal;
 }

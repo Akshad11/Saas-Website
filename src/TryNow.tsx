@@ -9,7 +9,7 @@ export default function TryNow() {
             <h2>Try Whitepace today</h2>
             <p>Get started for free.<br />
                 Add your whole team as your needs grow.</p>
-            <TryFreeBtn text="Try Taskey free " />
+            {/* <TryFreeBtn text="Try Taskey free " /> */}
             <p>On a big team? Contact sales</p>
             <div className="Try_icons-div">
                 <FontAwesomeIcon icon={faApple} font-size="60px" style={{ color: "#ffffff", }} />

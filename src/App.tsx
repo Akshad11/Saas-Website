@@ -59,7 +59,7 @@ export default function App() {
       />
       <TextImg
         headText="Customise it to your needs"
-        lineindex={2}
+        lineindex={5}
         subText=""
         bgColor="white"
         textColor="black"

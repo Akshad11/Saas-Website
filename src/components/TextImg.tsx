@@ -37,7 +37,7 @@ export default function TextImg({
     >
       <div className="T_Text-div">
         <div className="T_paddingdiv">
-          <HeaderText Htext={headText} textindex={lineindex} />
+          <h2><HeaderText Htext={headText} textindex={lineindex} /></h2>
           <p>{ptext}</p>
           <TryFreeBtn text={btntext} />
         </div>
